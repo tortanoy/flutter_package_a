@@ -8,6 +8,7 @@ class MyButtonExample extends StatelessWidget {
       alignment: Alignment.centerRight,
       child: TextButton(
           onPressed: () {
+            print("click");
           },
           child: Text(
             'Click',
